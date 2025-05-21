@@ -61,7 +61,6 @@ weight = float(input("Enter Weight (KG):"))
 height = float(input("Enter Height (M):"))
 
 bmi= weight/(height ** 2)
-
 print("BMI:", bmi)
 
 if bmi<18.5:
@@ -74,7 +73,6 @@ elif bmi<30:
 
 else:
     print("Obese")
-
 
 # Temperature Converter: Write a Python program that takes a temperature
 # input in Celsius and converts it to Fahrenheit if the temperature is above 0°C,
@@ -90,7 +88,6 @@ if temp>0:
 else:
     kelvin = temp + 273.15
     print("Temperature in Kelvin:", kelvin)
-
 
 # Simple Calculator: Input two numbers and an operator (+, -, *, /).Use
 # if-elif to perform the operation and print the result. Handle division by zero
@@ -115,7 +112,6 @@ elif op== '/':
 else:
     print("Invalid operator")
 
-
 # FizzBuzz: Write a Python program that prints the numbers from 1 to 100. But for
 # multiples of three, print "Fizz" instead of the number, and for the multiples of
 # five, print "Buzz". For numbers that are multiples of both three and five, print
@@ -130,7 +126,6 @@ for y in range(1,101):
         print("Buzz")
     else:
         print(y)
-
 
 # Sum of Digits: Write a Python program that takes an integer input from the
 # user and calculates the sum of its digits using a while loop.
